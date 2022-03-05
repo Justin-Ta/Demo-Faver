@@ -1,0 +1,85 @@
+.navbar{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    // background-color: hsla(210, 57%, 78%, 0.75);
+    .headerItem{
+        display: flex;
+        justify-content: space-around;
+        .searchForm{
+            position: relative;
+            .searchIcon{
+                position: absolute;
+                right: 20px;
+            }
+        }
+        
+    }
+}
+
+.carouselImg{
+    img{
+    height: 400px;
+    width: 100%;
+    }
+}
+.lastestProject{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    img{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
+
+.contentField{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
+    .contentWrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        .Item{
+            img{
+                width: 100%;
+                border-radius: 8px;
+            }
+        }
+    }
+    .spotlight{
+        margin-top: 50px;
+        height: 70vh;
+        .spotlightItem{
+            margin-top: 5px;
+            border: solid 1px $color-gray-0;
+            border-radius: 4px;
+            font-size: 14px;
+            padding: 5px;
+            .giverName{
+                color: blue;
+            }
+        }
+    }
+    .loadButton{
+        
+    }
+}
+
+.footer{
+    margin-top: 30px;
+    height: 150px;
+    background-color: hsla(210, 57%, 78%,1);   
+    .footerContent{
+        display: flex;
+        justify-content: space-between;
+        // align-items: center;
+        padding-top: 50px;
+    }
+}
+
+h2{
+    margin-top: 20px;
+}

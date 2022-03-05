@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1176;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 826;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+.navbar {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+}
+
+.navbar .headerItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .headerItem .searchForm {
+  position: relative;
+}
+
+.navbar .headerItem .searchForm .searchIcon {
+  position: absolute;
+  right: 20px;
+}
+
+.carouselImg img {
+  height: 400px;
+  width: 100%;
+}
+
+.lastestProject {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.lastestProject img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contentField {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+}
+
+.contentField .contentWrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.contentField .contentWrapper .Item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contentField .spotlight {
+  margin-top: 50px;
+  height: 70vh;
+}
+
+.contentField .spotlight .spotlightItem {
+  margin-top: 5px;
+  border: solid 1px #b3b3b396;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.contentField .spotlight .spotlightItem .giverName {
+  color: blue;
+}
+
+.footer {
+  margin-top: 30px;
+  height: 150px;
+  background-color: #a7c7e7;
+}
+
+.footer .footerContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
